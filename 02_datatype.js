@@ -1,5 +1,5 @@
 // there are 7  primitive datatypes present in javascript
-let a=null;       //NULL    note: return tyoe of null is object
+let a=null;       //NULL    note: return type of null is object
 let b=345;        //number
 let c=true;       //boolean
 let d=BigInt(345);//bigint
