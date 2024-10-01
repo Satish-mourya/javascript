@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JS DOM paragraph style</title>
+</head> 
+<body>
+<p id ='text'>JavaScript Exercises - w3resource</p> 
+<div>
+<button id="jsstyle"
+onclick="js_style()">change color</button>
+</div>
+
+<script>
+   let count=0;
+   function js_style(){
+      if(count==0){
+      document.querySelector("#text").style.color="red";
+      count=1;
+      }else{
+         document.querySelector("#text").style.color="green";
+         count=0;
+      }
+   }
+</script>
+</body>
+</html>
